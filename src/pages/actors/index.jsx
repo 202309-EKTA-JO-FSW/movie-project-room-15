@@ -17,21 +17,21 @@ export default function Actors({ actors }) {
     
      return (
       <div key={actor.id}>
+    <a href="#!">
      <div
-       className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0">
-       <a href="#!">
+       className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0"> 
          <img
-           className="rounded-t-lg"
+           className="rounded-lg"
            src={actor.name === "Robb Guinto" ? "https://image.tmdb.org/t/p/w500/gYs7kSFwr89BOHG2rxEOet17C2y.jpg" :`https://image.tmdb.org/t/p/w500${actor.profile_path}`}
            alt={actor.name + " profile photo"} />
-       </a>
-       <div className="p-6">
+       <div className="p-5">
          <h5
            className="font-sans font-bold mb-2 text-xl leading-tight text-neutral-800">
            {actor.name}
          </h5>
-         </div>
+         </div> 
        </div>
+       </a>
      </div>
   )
   })
