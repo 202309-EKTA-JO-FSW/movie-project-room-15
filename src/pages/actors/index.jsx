@@ -19,18 +19,20 @@ export default function Actors({ actors }) {
       <div key={actor.id}>
     <a href="#!">
      <div
-       className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0"> 
+       className=" mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] sm:shrink-0 sm:grow sm:basis-0"> 
          <img
-           className="rounded-lg"
+           className="rounded-lg h-[345px] object-cover"
            src={actor.name === "Robb Guinto" ? "https://image.tmdb.org/t/p/w500/gYs7kSFwr89BOHG2rxEOet17C2y.jpg" :`https://image.tmdb.org/t/p/w500${actor.profile_path}`}
            alt={actor.name + " profile photo"} />
+      
+      </div> 
        <div className="p-5">
          <h5
            className="font-sans font-bold mb-2 text-xl leading-tight text-neutral-800">
            {actor.name}
          </h5>
-         </div> 
-       </div>
+         
+         </div>  
        </a>
      </div>
   )
@@ -38,8 +40,8 @@ export default function Actors({ actors }) {
 
   return (
     <div>
-      <h2 className='font-sans font-bold text-xl mt-28 ml-12'>Top 20 Hollywood Popular Celebrity! </h2>
-      <div className="grid-cols-1 sm:grid md:grid-cols-5 mx-10 mt-0.5 mb-10">
+      <h2 className='font-sans font-bold text-xl mt-32 ml-12'>Top 20 Hollywood Popular Celebrity! </h2>
+      <div className="grid-cols-1 sm:grid md:grid-cols-5 mx-10 mt-20 mb-10">
       {popularActors}
       </div>
       </div>
