@@ -144,7 +144,6 @@
 // }
 
 // export default ActorDetailsPage
-import { useRouter } from "next/router"
 import { options, baseUrl } from "@/constants"
 import Head from "next/head"
 import Image from "next/image"
@@ -173,9 +172,6 @@ export async function getStaticProps({ params }) {
 }
 
 function Actor({ actorId }) {
-  console.log(actorId)
-  const router = useRouter()
-  const { queryId } = router.query
   return (
     <>
       <Head>
