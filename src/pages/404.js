@@ -1,5 +1,5 @@
-import NotFound from '@/components/NotFound'
-import Head from 'next/head'
+import NotFound from "@/components/NotFound"
+import Head from "next/head"
 
 export default function Custom404() {
   return (
