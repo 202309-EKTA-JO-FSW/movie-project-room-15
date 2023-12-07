@@ -11,16 +11,10 @@
   - [Details](#details)
     - [Project purpose and goal](#project-purpose-and-goal)
     - [Web stack and explanation](#web-stack-and-explanation)
-    - [Problem and thought process](#problem-and-thought-process)
-    - [Lesson learned](#lesson-learned)
-    - [Future improvements](#future-improvements)
-    - [Useful resources](#useful-resources)
   - [Getting started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installing](#installing)
   - [Contributing](#contributing)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +24,29 @@ An entertainment web app built with Next.js and TailwindCSS that allows users to
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/hooiyan/fem-entertainment-web-app)
+- Solution URL: [GitHub](https://github.com/202309-EKTA-JO-FSW/movie-project-room-15)
 - Live Site URL: [Vercel](https://movielandrecoded.vercel.app/)
+
+## Features 🌟
+
+Discover Movies 🎥
+Explore a vast collection of movies at your fingertips. From timeless classics to the hottest releases, MovieLand helps you discover new favorites.
+
+## Popular Movies 🌟
+
+Want to know what everyone's talking about? Check out the popular movies section to stay in the loop and catch up on trending films.
+
+## Trending Now 🚀
+
+Curious about what's trending in the movie world? Our trending now section keeps you updated on the latest buzzworthy releases.
+
+## Genre Exploration 🎭
+
+Love a specific genre? Dive into our genre section to find a curated selection of movies tailored to your taste. From action-packed adventures to heartwarming romances, we've got it all.
+
+## Actor Spotlight 🌟
+
+Explore the fascinating world of actors. Discover biographies, filmographies, and more. Who's your favorite actor? Find out everything about them here.
 
 ### Screenshot
 
